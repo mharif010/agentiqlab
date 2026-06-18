@@ -95,7 +95,7 @@ const TestimonialsSection = () => {
 
                 {/* Quote */}
                 <p className="text-lg mb-6 flex-grow text-text-secondary italic">
-                  "{testimonial.quote}"
+                  &quot;{testimonial.quote}&quot;
                 </p>
 
                 {/* Author */}

@@ -1,55 +1,54 @@
-'use client'
+"use client";
 
-import React from 'react'
-import { motion } from 'framer-motion'
-import Section from '../ui/Section'
-import Card from '../ui/Card'
-import Badge from '../ui/Badge'
-import { Zap } from 'lucide-react'
+import React from "react";
+import { motion } from "framer-motion";
+import Section from "../ui/Section";
+import Card from "../ui/Card";
+import { Zap } from "lucide-react";
 
 const UseCasesSection = () => {
   const useCases = [
     {
-      industry: 'Marketing',
-      icon: '📢',
+      industry: "Marketing",
+      icon: "📢",
       use_cases: [
-        'Automated email sequences based on user behavior',
-        'Real-time social media scheduling and publishing',
-        'Lead scoring and qualification workflows',
-        'Campaign performance reporting and analysis',
+        "Automated email sequences based on user behavior",
+        "Real-time social media scheduling and publishing",
+        "Lead scoring and qualification workflows",
+        "Campaign performance reporting and analysis",
       ],
     },
     {
-      industry: 'Operations',
-      icon: '⚙️',
+      industry: "Operations",
+      icon: "⚙️",
       use_cases: [
-        'Invoice processing and expense management',
-        'Supply chain tracking and alerts',
-        'Inventory management automation',
-        'Resource allocation optimization',
+        "Invoice processing and expense management",
+        "Supply chain tracking and alerts",
+        "Inventory management automation",
+        "Resource allocation optimization",
       ],
     },
     {
-      industry: 'Customer Support',
-      icon: '💬',
+      industry: "Customer Support",
+      icon: "💬",
       use_cases: [
-        'Intelligent ticket routing and categorization',
-        'Automated response generation for common questions',
-        'Customer satisfaction tracking',
-        'Knowledge base updates and maintenance',
+        "Intelligent ticket routing and categorization",
+        "Automated response generation for common questions",
+        "Customer satisfaction tracking",
+        "Knowledge base updates and maintenance",
       ],
     },
     {
-      industry: 'Finance',
-      icon: '💰',
+      industry: "Finance",
+      icon: "💰",
       use_cases: [
-        'Automated reconciliation and reporting',
-        'Expense approval workflows',
-        'Financial forecasting and analysis',
-        'Compliance monitoring and audit trails',
+        "Automated reconciliation and reporting",
+        "Expense approval workflows",
+        "Financial forecasting and analysis",
+        "Compliance monitoring and audit trails",
       ],
     },
-  ]
+  ];
 
   return (
     <Section id="use-cases">
@@ -62,7 +61,9 @@ const UseCasesSection = () => {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">Use Cases</h2>
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
+            Use Cases
+          </h2>
           <p className="text-text-secondary max-w-2xl mx-auto text-lg">
             Agentiq Lab powers automation across every department and industry
           </p>
@@ -111,7 +112,7 @@ const UseCasesSection = () => {
         </div>
       </div>
     </Section>
-  )
-}
+  );
+};
 
-export default UseCasesSection
+export default UseCasesSection;
