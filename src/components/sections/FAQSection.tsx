@@ -57,8 +57,9 @@ const FAQSection = () => {
             Frequently Asked Questions
           </h2>
           <p className="text-text-secondary max-w-2xl mx-auto text-lg">
-            Have questions? We haveve got answers. Can not find what you are
-            looking for?{" "}
+            {
+              "Have questions? We've got answers. Cannot find what you are looking for?"
+            }
             <a
               href="#"
               className="text-accent-400 hover:text-accent-300 transition-colors"
